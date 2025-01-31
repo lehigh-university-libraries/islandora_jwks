@@ -1,0 +1,20 @@
+{
+    "name": "drupal/islandora_jwks",
+    "description": "Provide a JWKS URI for Islandora's JWT tokens",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/islandora_jwks",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/islandora_jwks"
+    },
+    "authors": [
+        {
+            "name": "Joe Corall",
+            "email": "jjc223@lehigh.edu",
+            "role": "Owner"
+        }
+    ],
+    "require" : {
+        "drupal/islandora": "^2.13"
+    }
+}

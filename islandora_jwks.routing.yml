@@ -1,0 +1,7 @@
+islandora_jwks.uri:
+  path: '/oauth/discovery/keys'
+  defaults:
+    _title: 'Keys'
+    _controller: '\Drupal\islandora_jwks\Controller\IslandoraJwksController'
+  requirements:
+    _permission: 'access content'
