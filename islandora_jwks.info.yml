@@ -4,5 +4,4 @@ description: 'Provide a JWKS URI for Islandora&#039;s JWT tokens'
 package: Islandora
 core_version_requirement: ^10 || ^11
 dependencies:
-  - islandora:islandora
   - jwt:jwt
