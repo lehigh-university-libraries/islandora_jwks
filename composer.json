@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "drupal/jwt": "^2.2 || ^3"
+    "drupal/jwt": "^3"
   },
   "suggest": {
     "drupal/islandora": "This module is intended to be used only on Islandora sites."

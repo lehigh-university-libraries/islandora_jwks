@@ -16,11 +16,15 @@ jobs:
     strategy:
       matrix:
         php-version: ["8.1", "8.2", "8.3"]
-        drupal-version: ["10.3", "10.4", "11.0"]
+        drupal-version: ["10.3", "10.4", "11.0", "11.1"]
         exclude:
           - drupal-version: "11.0"
             php-version: "8.1"
           - drupal-version: "11.0"
+            php-version: "8.2"
+          - drupal-version: "11.1"
+            php-version: "8.1"
+          - drupal-version: "11.1"
             php-version: "8.2"
     steps:
       - name: Checkout code
