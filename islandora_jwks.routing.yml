@@ -5,3 +5,5 @@ islandora_jwks.uri:
     _controller: '\Drupal\islandora_jwks\Controller\IslandoraJwksController'
   requirements:
     _permission: 'access content'
+  options:
+    _maintenance_access: TRUE
